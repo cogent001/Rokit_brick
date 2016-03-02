@@ -1,0 +1,24 @@
+{
+  "main": "s4a.html",
+  "name": "Rokitbrick",
+  "description": "Rokitbrick",
+  "window": {
+    "title": "Rokitbrick",
+    "icon": "s4a.ico",
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+	"resizable": true,
+	"fullscreen": false,
+	"show_in_taskbar": true,
+    "width": 1280,
+    "height": 720,
+    "min_width": 1024,
+    "min_height": 768
+  },
+  "dependencies": {
+    "firmata": "~0.3.3",
+    "serialport": ">=0.7.5"
+
+  }
+}
